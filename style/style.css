@@ -15,6 +15,13 @@ li {
     list-style: none;
 }
 
+.container {
+    display: flex;
+    width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* header */
 header{
     width: 100%;
@@ -47,11 +54,11 @@ header{
     font-size: 1.2rem;
 }
 
-.nav-button button {
+button {
     color: white;
     background: #1da1f2;
     border: none;
-    padding: 20px 30px;
+    padding: 18px 30px;
     border-radius: 5px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -60,4 +67,109 @@ header{
 
 .nav-button button img {
     margin-right: 10px;
+}
+
+/* Hero */
+section.hero {
+    width: 100%;
+}
+
+.container {
+    gap: 70px;
+}
+
+.left-column {
+    width: 57%;
+    transform: translateY(40px);
+}
+
+.left-column h1 {
+    font-size: 3.7rem;
+}
+
+.left-column p {
+    color: #595959;
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.left-column .hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.left-column .hero-buttons a {
+    display: flex;
+    align-items: center;
+    color:#135075;
+    font-weight: 600;
+    font-size: 1.2rem;
+    gap: 8px;
+}
+
+.left-column .hero-buttons a img {
+    width: 20px;
+    height: auto;
+    color: #135075;
+}
+
+.left-column .user-avatars{
+    margin: 30px 0;
+}
+
+.left-column .user-avatars .stack{
+    position: relative;
+}
+
+.left-column .user-avatars img:nth-child(1){
+    left: 0;
+}
+
+.left-column .user-avatars img:nth-child(2){
+    left: -20px;
+}
+.left-column .user-avatars img:nth-child(3){
+    left: -40px;
+}
+.left-column .user-avatars img:nth-child(4){
+    left: -60px;
+}
+.left-column .user-avatars img:nth-child(5){
+    left: -80px;
+}
+.left-column .user-avatars img:nth-child(6){
+    left: -100px;
+}
+.left-column .user-avatars img:nth-child(7){
+    left: -120px;
+}
+.left-column .user-avatars img:nth-child(8){
+    left: -140px;
+}
+.left-column .user-avatars img:nth-child(9){
+    left: -160px;
+}
+
+
+.left-column p .span-hero {
+    color: #1da1f2;
+    font-weight: 700;
+}
+
+.left-column p.disclaimer {
+    width: 80%;
+    margin-top: 0;
+}
+
+
+.right-column {
+    width: 43%;
+}
+
+.right-column img{
+    width: 100%;
+    height: auto;
+    margin-right: au;
 }
