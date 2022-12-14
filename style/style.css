@@ -15,6 +15,25 @@ li {
     list-style: none;
 }
 
+p {
+    color: #595959;
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 3.7rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: 700;
+}
+
 .container {
     display: flex;
     width: 1150px;
@@ -22,9 +41,17 @@ li {
     margin-left: auto;
 }
 
+section {
+    padding: 70px 0;
+}
+
 /* header */
 header{
     width: 100%;
+}
+
+header,section.hero{
+    background: #fbf8f3;
 }
 
 .nav-bar{
@@ -72,6 +99,7 @@ button {
 /* Hero */
 section.hero {
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -83,16 +111,6 @@ section.hero {
     transform: translateY(40px);
 }
 
-.left-column h1 {
-    font-size: 3.7rem;
-}
-
-.left-column p {
-    color: #595959;
-    line-height: 30px;
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
 
 .left-column .hero-buttons {
     margin-top: 20px;
@@ -171,5 +189,39 @@ section.hero {
 .right-column img{
     width: 100%;
     height: auto;
-    margin-right: au;
+}
+
+/* Features */
+section.features {
+    width: 100%;
+}
+
+.features .container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features h2.container-title {
+    width: 40%;
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+}
+
+.grid-container .grid-box{
+    border: 0.1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.grid-container .grid-box img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 10px;
 }
