@@ -16,7 +16,7 @@ li {
 }
 
 p {
-    color: #595959;
+    color: #8b8b8b;
     line-height: 30px;
     font-size: 1.2rem;
     margin-top: 10px;
@@ -49,6 +49,10 @@ h3 {
 
 section {
     padding: 70px 0;
+}
+
+.flex{
+    display: flex;
 }
 
 /* header */
@@ -98,7 +102,7 @@ button {
     display: flex;
 }
 
-.nav-button button img {
+button img {
     margin-right: 10px;
 }
 
@@ -246,10 +250,44 @@ section.testimonials {
     display: flex;
     justify-content:space-between;
     gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.testimonial-container > * {
+    flex: 1;
 }
 
 .testimonial-container .testimonial-box {
     background: white;
     border-radius: 5px;
     padding: 20px;
+}
+
+.testimonial-box .testimonial-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-box .testimonial-right{
+    gap: 10px;
+    align-items: center;
+}
+
+.testimonial-box .testimonial-right p{
+    gap: 10px;
+    margin: 0;
+}
+
+.testimonial-box .testimonial-bottom{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.testimonial-box .testimonial-bottom p{
+    margin-top: 0;
+}
+
+.testimonial-box .testimonial-bottom .testimonial-like{
+    gap: 8px;
 }
