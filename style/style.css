@@ -49,6 +49,7 @@ h3 {
 
 section {
     padding: 70px 0;
+    width: 100%;
 }
 
 .flex{
@@ -290,4 +291,49 @@ section.testimonials {
 
 .testimonial-box .testimonial-bottom .testimonial-like{
     gap: 8px;
+}
+
+/* Pricing */
+.pricing .container{
+    flex-direction: column;
+}
+
+.pricing .container .pricing-text{
+    text-align: center;
+}
+
+.pricing .container .pricing-text p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing .container .pricing-chart{
+    border: 1px solid gold;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fbf8f3;
+    padding: 30px 35px;
+}
+
+.pricing .container .pricing-chart p {
+    margin-top: 0;
+}
+
+.pricing .container .pricing-chart .pricing-top p:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.pricing .container .pricing-chart .pricing-top p:nth-child(2) {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+}
+
+.pricing .container .pricing-chart button {
+    margin-right: auto;
+    margin-left: auto;
 }
