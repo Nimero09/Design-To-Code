@@ -75,10 +75,10 @@ header, section.hero{
     height: 140px;
 }
 
-.nav-bar .nav-title {
+.logo-text  {
     color: #1da1f2;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 800;
 }
 
@@ -101,6 +101,7 @@ button {
     font-size: 1.2rem;
     font-weight: 500;
     display: flex;
+    cursor: pointer;
 }
 
 button img {
@@ -296,6 +297,7 @@ section.testimonials {
 /* Pricing */
 .pricing .container{
     flex-direction: column;
+    width: 33%;
 }
 
 .pricing .container .pricing-text{
@@ -303,7 +305,6 @@ section.testimonials {
 }
 
 .pricing .container .pricing-text p{
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -322,18 +323,65 @@ section.testimonials {
     margin-top: 0;
 }
 
-.pricing .container .pricing-chart .pricing-top p:nth-child(1) {
-    font-size: 1.5rem;
+.pricing .container .pricing-chart p  {
+    margin-top: 0;
 }
 
-.pricing .container .pricing-chart .pricing-top p:nth-child(2) {
+.pricing .container .pricing-chart .pricing-top p:nth-child(1),
+.pricing .container .pricing-chart .pricing-top p span
+{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #8b8b8b;
+}
+
+.pricing .container .pricing-chart .pricing-top p:nth-child(2){
     font-size: 3.2rem;
     font-weight: 700;
     color: black;
     margin-top: 20px;
 }
 
+
+hr{
+    margin-top: 30px;
+    background-color: rgb(207, 207, 207);
+    height: 1px;
+    border: none;
+}
+
+.pricing-container .pricing-bulletpoint {
+    margin-top: 15px;
+    gap: 15px;
+}
+
+
 .pricing .container .pricing-chart button {
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: #d7f5f5;
+    padding: 30px 0;
+}
+
+.container {
+    align-items: center;
+}
+
+footer .container .footer-links {
+    margin-left: auto;
+}
+
+.footer-links ul li {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    font-weight: 600;
 }
