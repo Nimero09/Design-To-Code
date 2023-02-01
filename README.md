@@ -1,4 +1,2 @@
-# webDesignToCode2
-This is my second project
-
-Take a look at https://nimero09.github.io/webDesignToCode2/
+# Design-To-Code
+This is a showcase of my first project using HTML &amp; CSS, I coded a website design found online.
